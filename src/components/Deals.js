@@ -1,16 +1,12 @@
 import React from 'react'
+import Img from './Img'
 
 export default function Deals() {
     return (
 
         <div className="flex flex-col grow pt-9 pb-5 mt-3.5 w-full bg-white rounded-xl max-md:mt-7">
             <div className="flex flex-col items-center px-5">
-                <img alt=""
-                    loading="lazy"
-                    srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=100 100w,
-                          https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&"
-                    className="max-w-full aspect-[1.37] w-[141px]"
-                />
+                <Img />
                 <div className="flex gap-1 justify-between self-stretch mt-14 text-sky-800 max-md:mt-10">
                     <div className="grow justify-center px-2 py-2.5 text-sm leading-5 bg-gray-100 rounded-lg">
                         20% Off

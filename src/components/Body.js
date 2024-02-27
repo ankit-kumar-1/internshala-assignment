@@ -2,6 +2,7 @@ import React from 'react'
 import ShowMore from './ShowMore'
 import ViewBtn from './ViewBtn'
 import Deals from './Deals'
+import Img from './Img'
 
 export default function Body() {
   return (
@@ -113,11 +114,7 @@ export default function Body() {
                       <div className="flex-auto my-auto">Best Choice</div>
                     </div>
                     <div className="flex flex-col items-center pl-14 mt-14 text-sm leading-5 text-center text-gray-500 whitespace-nowrap max-md:pl-5 max-md:mt-10">
-                      <img alt=""
-                        loading="lazy"
-                        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=100 100w"
-                        className="aspect-[1.37] w-[141px]"
-                      />
+                      <Img />
                       <div className="mt-4">Builder 1</div>
                     </div>
                   </div>
@@ -184,11 +181,7 @@ export default function Body() {
                       <div className="flex-auto my-auto">Best Value</div>
                     </div>
                     <div className="flex flex-col items-center pl-14 mt-10 text-sm leading-5 text-center text-gray-500 whitespace-nowrap max-md:pl-5">
-                      <img alt=""
-                        loading="lazy"
-                        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=100 100w"
-                        className="aspect-[1.37] w-[141px]"
-                      />
+                      <Img />
                       <div className="mt-8">Biulder</div>
                     </div>
                   </div>
@@ -251,11 +244,7 @@ export default function Body() {
               <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
                 <div className="flex flex-col w-[19%] max-md:ml-0 max-md:w-full">
                   <div className="flex flex-col items-center self-stretch my-auto text-sm leading-5 text-center text-gray-500 whitespace-nowrap max-md:mt-10">
-                    <img alt=""
-                      loading="lazy"
-                      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=100 100w"
-                      className="aspect-[1.43] w-[147px]"
-                    />
+                    <Img />
                     <div className="mt-4">Builder 1</div>
                   </div>
                 </div>
@@ -307,11 +296,7 @@ export default function Body() {
               <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
                 <div className="flex flex-col w-[15%] max-md:ml-0 max-md:w-full">
                   <div className="flex flex-col items-center self-stretch my-auto text-sm leading-5 text-center text-gray-500 whitespace-nowrap max-md:mt-10">
-                    <img alt=""
-                      loading="lazy"
-                      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=100 100w"
-                      className="aspect-[1.37] w-[141px]"
-                    />
+                    <Img />
                     <div className="mt-12 max-md:mt-10">CDK</div>
                   </div>
                 </div>
