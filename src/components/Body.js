@@ -1,4 +1,7 @@
 import React from 'react'
+import ShowMore from './ShowMore'
+import ViewBtn from './ViewBtn'
+import Deals from './Deals'
 
 export default function Body() {
   return (
@@ -112,7 +115,7 @@ export default function Body() {
                     <div className="flex flex-col items-center pl-14 mt-14 text-sm leading-5 text-center text-gray-500 whitespace-nowrap max-md:pl-5 max-md:mt-10">
                       <img alt=""
                         loading="lazy"
-                        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&"
+                        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=100 100w"
                         className="aspect-[1.37] w-[141px]"
                       />
                       <div className="mt-4">Builder 1</div>
@@ -137,14 +140,7 @@ export default function Body() {
                       access to premium design templates, an extensive library
                       of widgets and apps, and detailed step-by-step guides.
                     </div>
-                    <div className="flex gap-1 self-start px-px mt-8 text-blue-500 whitespace-nowrap leading-[150%]">
-                      <div className="grow">Show more</div>
-                      <img alt=""
-                        loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/7c5e3f938376029e2d95dee3aaef4f65da86dfa20d582dcccbe39315bea454c1?apiKey=f7955b557b1c414699668cfd8849ecc3&"
-                        className="w-4 aspect-square"
-                      />
-                    </div>
+                    <ShowMore />
                   </div>
                 </div>
                 <div className="flex flex-col ml-5 w-[24%] max-md:ml-0 max-md:w-full">
@@ -165,9 +161,7 @@ export default function Body() {
                         className="self-center mt-2.5 w-full aspect-[7.69]"
                       />
                     </div>
-                    <div className="justify-center items-center px-16 py-5 mt-20 text-base leading-6 text-center text-white bg-blue-500 rounded-xl max-md:px-5 max-md:mt-10">
-                      View
-                    </div>
+                    <ViewBtn />
                   </div>
                 </div>
               </div>
@@ -192,7 +186,7 @@ export default function Body() {
                     <div className="flex flex-col items-center pl-14 mt-10 text-sm leading-5 text-center text-gray-500 whitespace-nowrap max-md:pl-5">
                       <img alt=""
                         loading="lazy"
-                        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&"
+                        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=100 100w"
                         className="aspect-[1.37] w-[141px]"
                       />
                       <div className="mt-8">Biulder</div>
@@ -217,14 +211,7 @@ export default function Body() {
                       studio, featuring a robust selection of design elements,
                       SEO optimization tools, and e-commerce integrations.
                     </div>
-                    <div className="flex gap-1 self-start px-px mt-6 text-blue-500 whitespace-nowrap leading-[150%]">
-                      <div className="grow">Show more</div>
-                      <img alt=""
-                        loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/7c5e3f938376029e2d95dee3aaef4f65da86dfa20d582dcccbe39315bea454c1?apiKey=f7955b557b1c414699668cfd8849ecc3&"
-                        className="w-4 aspect-square"
-                      />
-                    </div>
+                    <ShowMore />
                   </div>
                 </div>
                 <div className="flex flex-col ml-5 w-[24%] max-md:ml-0 max-md:w-full">
@@ -245,10 +232,7 @@ export default function Body() {
                         className="self-center mt-3.5 w-full aspect-[6.67]"
                       />
                     </div>
-                    <div className="justify-center items-center px-16 py-5 mt-20 text-base leading-6 text-center text-white bg-blue-500 rounded-xl max-md:px-5 max-md:mt-10">
-                      View
-                      <br />
-                    </div>
+                    <ViewBtn />
                   </div>
                 </div>
               </div>
@@ -269,7 +253,7 @@ export default function Body() {
                   <div className="flex flex-col items-center self-stretch my-auto text-sm leading-5 text-center text-gray-500 whitespace-nowrap max-md:mt-10">
                     <img alt=""
                       loading="lazy"
-                      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&"
+                      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=100 100w"
                       className="aspect-[1.43] w-[147px]"
                     />
                     <div className="mt-4">Builder 1</div>
@@ -293,9 +277,7 @@ export default function Body() {
                       access to premium design templates, an extensive library
                       of widgets and apps, and detailed step-by-step guides.
                     </div>
-                    <div className="mt-8 text-blue-500 leading-[150%] max-md:max-w-full">
-                      Show more
-                    </div>
+                    <ShowMore />
                   </div>
                 </div>
                 <div className="flex flex-col ml-5 w-[26%] max-md:ml-0 max-md:w-full">
@@ -311,9 +293,7 @@ export default function Body() {
                         className="mt-2.5 w-full aspect-[7.69]"
                       />
                     </div>
-                    <div className="justify-center items-center px-16 py-5 mt-20 text-base leading-6 text-center text-white bg-blue-500 rounded-xl max-md:px-5 max-md:mt-10">
-                      View
-                    </div>
+                    <ViewBtn />
                   </div>
                 </div>
               </div>
@@ -329,7 +309,7 @@ export default function Body() {
                   <div className="flex flex-col items-center self-stretch my-auto text-sm leading-5 text-center text-gray-500 whitespace-nowrap max-md:mt-10">
                     <img alt=""
                       loading="lazy"
-                      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&"
+                      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=100 100w"
                       className="aspect-[1.37] w-[141px]"
                     />
                     <div className="mt-12 max-md:mt-10">CDK</div>
@@ -405,9 +385,7 @@ export default function Body() {
                         <div className="my-auto">Out of box</div>
                       </div>
                     </div>
-                    <div className="mt-3 text-base leading-6 text-blue-500 max-md:max-w-full">
-                      Show more
-                    </div>
+                    <ShowMore />
                   </div>
                 </div>
                 <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
@@ -448,127 +426,13 @@ export default function Body() {
             <div className="max-md:max-w-full">
               <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
                 <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
-                  <div className="flex flex-col grow pt-9 pb-5 mt-3.5 w-full bg-white rounded-xl max-md:mt-7">
-                    <div className="flex flex-col items-center px-5">
-                      <img alt=""
-                        loading="lazy"
-                        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&"
-                        className="max-w-full aspect-[1.37] w-[141px]"
-                      />
-                      <div className="flex gap-1 justify-between self-stretch mt-14 text-sky-800 max-md:mt-10">
-                        <div className="grow justify-center px-2 py-2.5 text-sm leading-5 bg-gray-100 rounded-lg">
-                          20% Off
-                        </div>
-                        <div className="grow justify-center py-2.5 pr-5 pl-2 text-sm leading-5 bg-gray-100 rounded-lg">
-                          Limited time{" "}
-                        </div>
-                      </div>
-                      <div className="mt-3 text-base font-bold leading-6 text-gray-500 whitespace-nowrap">
-                        Webbuilder 1
-                      </div>
-                    </div>
-                    <div className="flex flex-col px-5 mt-5">
-                      <div className="text-base leading-6 text-gray-500">
-                        Computer Modern clasic with wix support
-                      </div>
-                      <div className="flex gap-2.5 justify-between mt-3.5">
-                        <div className="text-xl leading-7 text-gray-500">
-                          $39.96
-                        </div>
-                        <div className="text-sm leading-5 text-gray-400">
-                          $49.96
-                        </div>
-                        <div className="flex-auto text-sm leading-5 text-rose-500">
-                          (20% Off)
-                        </div>
-                      </div>
-                      <div className="justify-center items-center px-16 py-5 mt-4 text-base leading-6 text-center text-white whitespace-nowrap bg-blue-500 rounded-xl max-md:px-5">
-                        View Deal
-                      </div>
-                    </div>
-                  </div>
+                  <Deals />
                 </div>
                 <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
-                  <div className="flex flex-col grow pt-9 pb-5 mt-2.5 w-full bg-white rounded-xl max-md:mt-6">
-                    <div className="flex flex-col items-center px-5">
-                      <img alt=""
-                        loading="lazy"
-                        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&"
-                        className="max-w-full aspect-[1.37] w-[141px]"
-                      />
-                      <div className="flex gap-1 justify-between self-stretch mt-14 text-sky-800 max-md:mt-10">
-                        <div className="grow justify-center px-2 py-2.5 text-sm leading-5 bg-gray-100 rounded-lg">
-                          20% Off
-                        </div>
-                        <div className="grow justify-center py-2.5 pr-5 pl-2 text-sm leading-5 bg-gray-100 rounded-lg">
-                          Limited time{" "}
-                        </div>
-                      </div>
-                      <div className="mt-3 text-base font-bold leading-6 text-gray-500 whitespace-nowrap">
-                        Webbuilder 1
-                      </div>
-                    </div>
-                    <div className="flex flex-col px-5 mt-5">
-                      <div className="text-base leading-6 text-gray-500">
-                        Computer Modern clasic with wix support
-                      </div>
-                      <div className="flex gap-2.5 justify-between mt-3.5">
-                        <div className="text-xl leading-7 text-gray-500">
-                          $39.96
-                        </div>
-                        <div className="text-sm leading-5 text-gray-400">
-                          $49.96
-                        </div>
-                        <div className="flex-auto text-sm leading-5 text-rose-500">
-                          (20% Off)
-                        </div>
-                      </div>
-                      <div className="justify-center items-center px-16 py-5 mt-4 text-base leading-6 text-center text-white whitespace-nowrap bg-blue-500 rounded-xl max-md:px-5">
-                        View Deal
-                      </div>
-                    </div>
-                  </div>
+                  <Deals />
                 </div>
                 <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
-                  <div className="flex flex-col pt-9 pb-5 w-full bg-white rounded-xl max-md:mt-3.5">
-                    <div className="flex flex-col items-center px-5">
-                      <img alt=""
-                        loading="lazy"
-                        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/f495a3465c0db88858914036f4a7d285771e44954a0217088fb24b1c34c069df?apiKey=f7955b557b1c414699668cfd8849ecc3&"
-                        className="max-w-full aspect-[1.37] w-[141px]"
-                      />
-                      <div className="flex gap-1 justify-between self-stretch mt-14 text-sky-800 max-md:mt-10">
-                        <div className="grow justify-center px-2 py-2.5 text-sm leading-5 bg-gray-100 rounded-lg">
-                          20% Off
-                        </div>
-                        <div className="grow justify-center py-2.5 pr-5 pl-2 text-sm leading-5 bg-gray-100 rounded-lg">
-                          Limited time{" "}
-                        </div>
-                      </div>
-                      <div className="mt-3 text-base font-bold leading-6 text-gray-500 whitespace-nowrap">
-                        Webbuilder 1
-                      </div>
-                    </div>
-                    <div className="flex flex-col px-5 mt-5">
-                      <div className="text-base leading-6 text-gray-500">
-                        Computer Modern clasic with wix support
-                      </div>
-                      <div className="flex gap-2.5 justify-between mt-3.5">
-                        <div className="text-xl leading-7 text-gray-500">
-                          $39.96
-                        </div>
-                        <div className="text-sm leading-5 text-gray-400">
-                          $49.96
-                        </div>
-                        <div className="flex-auto text-sm leading-5 text-rose-500">
-                          (20% Off)
-                        </div>
-                      </div>
-                      <div className="justify-center items-center px-16 py-5 mt-4 text-base leading-6 text-center text-white whitespace-nowrap bg-blue-500 rounded-xl max-md:px-5">
-                        View Deal
-                      </div>
-                    </div>
-                  </div>
+                  <Deals />
                 </div>
               </div>
             </div>
